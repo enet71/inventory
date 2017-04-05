@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,iBAAkB;EAChB,KAAK,EAAE,KAAK;EACZ,KAAK,EAAE,MAAM;EACb,gBAAgB,EAAE,sBAAsB;EACxC,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EAEb,WAAI,EAAE,IAAI;EACV,YAAK,EAAE,IAAI;EACX,UAAG,EAAE,IAAI;EAEX,MAAM,EAAE,iBAAiB",
+"sources": ["battle-log.component.scss"],
+"names": [],
+"file": "battle-log.component.css"
+}

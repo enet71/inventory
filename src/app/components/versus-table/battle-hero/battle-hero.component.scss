@@ -1,0 +1,129 @@
+@import "../../../styles/inventory-sprites";
+
+.hero-panel {
+  background-color: rgba(34, 21, 12, 0.6);
+  width: auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid #160d07;
+  position: relative;
+
+  .health{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    height: 10px;
+    background-color: #1a902b;
+    margin-bottom: 10px;
+    width: 344px;
+  }
+
+  .hero-title {
+    color: #f0f0f0;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .hero-info {
+    display: flex;
+
+    .hero-stats {
+      color: #f0f0f0;
+      padding-right: 20px;
+    }
+
+    .hero-item {
+      position: relative;
+      width: 140px;
+      height: 281px;
+    }
+  }
+}
+
+.size {
+  width: 44px;
+  height: 53px;
+  background-color: rgba(34, 21, 12, 0.71);
+
+}
+
+.shoulders {
+  @extend .size;
+  top: 27px;
+  left: 0px;
+}
+
+.hands {
+  @extend .size;
+  top: 84px;
+  left: 0px;
+}
+
+.finger-left {
+  @extend .size;
+  top: 141px;
+  left: 0px;
+}
+
+.hand-left {
+  @extend .size;
+  top: 198px;
+  left: 0px;
+}
+
+.head {
+  @extend .size;
+  top: 0px;
+  left: 48px;
+}
+
+.torso {
+  @extend .size;
+  top: 57px;
+  left: 48px;
+}
+
+.waist {
+  @extend .size;
+  top: 114px;
+  left: 48px;
+}
+
+.legs {
+  top: 171px;
+  left: 48px;
+  @extend .size;
+
+}
+
+.feet {
+  @extend .size;
+  top: 228px;
+  left: 48px;
+}
+
+.neck {
+  @extend .size;
+  top: 27px;
+  left: 96px;
+}
+
+.bracers {
+  @extend .size;
+  top: 84px;
+  left: 96px;
+}
+
+.finger-right {
+  @extend .size;
+  top: 141px;
+  left: 96px;
+}
+
+.hand-right {
+  @extend .size;
+  top: 198px;
+  left: 96px;
+}

@@ -1,0 +1,8 @@
+<div class="user-create">
+    <div class="player">{{player}}</div>
+    <form #createform="ngForm">
+        <input name="name" [(ngModel)]="name" placeholder="Enter your name" type="text" required>
+    </form>
+    <button [disabled]="!createform.form.valid" class="enter"  (click)="onEnter()"><span>Enter</span></button>
+</div>
+

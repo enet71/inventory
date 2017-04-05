@@ -1,0 +1,17 @@
+<div class="characterItems">
+    <div>
+        <div #mytooltip></div>
+
+        <div [draggable]="item.isBought" class="item tooltip"
+             (dragend)="onDragEnd()" (dragstart)="onDragStart()" (click)="onRemove()"
+             [ngClass]="getClass()" [ngStyle]="getStyle()"
+             [my-tooltip]="mytooltip"
+             [agility]="item.bonuses.agility"
+             [strength]="item.bonuses.strength"
+             [intelligence]="item.bonuses.intelligence"
+             [price]="item.price"
+             [itemValue]="item.itemValue">
+        </div>
+
+    </div>
+</div>

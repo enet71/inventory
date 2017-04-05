@@ -1,0 +1,55 @@
+<div class="versus-table">
+    <div>
+        <div class="user">{{user_1.getName()}}</div>
+
+        <battle-hero
+                [name]="'Hunter'"
+                [hero]="user_1.getHunter()"
+                [characterList]="user_1.getCharacterList()[0]"
+                [state]="leftHunter">
+        </battle-hero>
+        <battle-hero
+                [name]="'Warrior'"
+                [hero]="user_1.getWarrior()"
+                [characterList]="user_1.getCharacterList()[1]"
+                [state]="leftWarrior">
+        </battle-hero>
+        <battle-hero
+                [name]="'Mage'"
+                [hero]="user_1.getMage()"
+                [characterList]="user_1.getCharacterList()[2]"
+                [state]="leftMage">
+        </battle-hero>
+    </div>
+    <div class="middle">
+        <div *ngIf="battleOver" class="winner">{{winner.getName()}}<br> win</div>
+        <div class="versus">VS</div>
+        <div (click)="onStart()" class="start">Start Battle</div>
+    </div>
+    <div>
+        <div class="user">{{user_2.getName()}}</div>
+
+        <battle-hero
+                [name]="'Hunter'"
+                [hero]="user_2.getHunter()"
+                [characterList]="user_2.getCharacterList()[0]"
+                [state]="rightHunter">
+        </battle-hero>
+        <battle-hero
+                [name]="'Warrior'"
+                [hero]="user_2.getWarrior()"
+                [characterList]="user_2.getCharacterList()[1]"
+                [state]="rightWarrior">
+        </battle-hero>
+        <battle-hero
+                [name]="'Mage'"
+                [hero]="user_2.getMage()"
+                [characterList]="user_2.getCharacterList()[2]"
+                [state]="rightMage">
+
+        </battle-hero>
+    </div>
+</div>
+<div>
+    <battle-log [battleList]="battleLog" [user_1]="user_1" [user_2]="user_2"></battle-log>
+</div>

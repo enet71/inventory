@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;;;GAKG;AACH,UAAW;EACT,gBAAgB,EAAE,0EAA0E;EAC5F,iBAAiB,EAAE,KAAK;EACxB,QAAQ,EAAC,QAAQ;EAAE,KAAK,EAAE,KAAK;EAAE,MAAM,EAAE,KAAK",
+"sources": ["inventory.component.scss"],
+"names": [],
+"file": "inventory.component.css"
+}

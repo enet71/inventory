@@ -1,0 +1,410 @@
+.item {
+  z-index: 10;
+  position: absolute;
+}
+
+.characterItemsDem {
+  background: url("http://image.prntscr.com/image/a5a35afac1e449f893566580491f26db.png") no-repeat;
+}
+
+.characterItemsWar {
+  background: url("http://image.prntscr.com/image/e22809e3ab7f4d7bbf63804384165269.png") no-repeat;
+}
+
+.characterItemsMag {
+  background: url("http://image.prntscr.com/image/f9d67a00812f4d1bbe627352a186e473.png") no-repeat;
+}
+
+.characterItemsNew {
+  background: url("http://image.prntscr.com/image/02ab1461083c4e689d6c2348a9f43454.png") no-repeat;
+}
+
+.characterItemsNew2 {
+  background: url("http://image.prntscr.com/image/5a3601be226842b8babb2a4cbc3f2a4b.png") no-repeat;
+}
+
+.characterItemsDemMini {
+  background: url("http://image.prntscr.com/image/ee043e57948749fdbf275cf3166c7a86.png") no-repeat;
+}
+
+.characterItemsWarMini {
+  background: url("http://image.prntscr.com/image/a240ae986b7d4a66bddedb2e265abd35.png") no-repeat;
+}
+
+.characterItemsMagMini {
+  background: url("http://image.prntscr.com/image/c623810b5a49410f831bf6db9ff39e77.png") no-repeat;
+}
+
+.characterItemsNewMini {
+  background: url("http://image.prntscr.com/image/9ddf735de4e14ff6b97f7c847727bec6.png") no-repeat;
+}
+
+.characterItemsNew2Mini {
+  background: url("http://image.prntscr.com/image/755e51c53e1b4d988b17556330dd50cd.png") no-repeat;
+}
+
+.item-inventory {
+  width: 43.5px;
+  height: 53px;
+}
+
+.item-inventory-0 {
+  @extend .item-inventory;
+  background-position-x: -176px;
+  background-position-y: -106px;
+}
+
+.item-inventory-1 {
+  @extend .item-inventory;
+  background-position-x: -176px;
+  background-position-y: -53px;
+}
+
+.item-inventory-2 {
+  @extend .item-inventory;
+  background-position-x: 0px;
+  background-position-y: -53px;
+}
+
+.item-inventory-3 {
+  @extend .item-inventory;
+  background-position-x: -44px;
+  background-position-y: 0px;
+}
+
+.item-inventory-4 {
+  @extend .item-inventory;
+  background-position-x: 0px;
+  background-position-y: -159px;
+}
+
+.item-inventory-5 {
+  @extend .item-inventory;
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+
+.item-inventory-6 {
+  @extend .item-inventory;
+  background-position-x: -44px;
+  background-position-y: -53px;
+}
+
+.item-inventory-7 {
+  @extend .item-inventory;
+  background-position-x: -176px;
+  background-position-y: 0px;
+}
+
+.item-inventory-8 {
+  @extend .item-inventory;
+  background-position-x: -88px;
+  background-position-y: -106px;
+}
+
+.item-inventory-9 {
+  @extend .item-inventory;
+  background-position-x: 0px;
+  background-position-y: -106px;
+}
+
+.item-inventory-10 {
+  @extend .item-inventory;
+  background-position-x: -132px;
+  background-position-y: -106px;
+}
+
+.item-inventory-11 {
+  @extend .item-inventory;
+  background-position-x: -88px;
+  background-position-y: 0px;
+}
+
+.item-inventory-12 {
+  @extend .item-inventory;
+  background-position-x: -44px;
+  background-position-y: -106px;
+}
+
+.item-inventory-13 {
+  @extend .item-inventory;
+  background-position-x: -132px;
+  background-position-y: -53px;
+}
+
+.item-inventory-14 {
+  @extend .item-inventory;
+  background-position-x: -132px;
+  background-position-y: 0px;
+}
+
+.item-inventory-15 {
+  @extend .item-inventory;
+  background-position-x: -88px;
+  background-position-y: -53px;
+}
+
+.item-inventory-16 {
+  @extend .item-inventory;
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+
+.item-inventory-17 {
+  @extend .item-inventory;
+  background-position-x: -44px;
+  background-position-y: 0px;
+}
+
+.item-inventory-18 {
+  @extend .item-inventory;
+  background-position-x: -88px;
+  background-position-y: 0px;
+}
+
+.item-inventory-19 {
+  @extend .item-inventory;
+  background-position-x: -132px;
+  background-position-y: 0px;
+}
+
+.item-inventory-19 {
+  @extend .item-inventory;
+  background-position-x: -176px;
+  background-position-y: 0px;
+}
+
+.item-inventory-20 {
+  @extend .item-inventory;
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+
+.item-inventory-21 {
+  @extend .item-inventory;
+  background-position-x: -220px;
+  background-position-y: 0px;
+}
+
+.item-inventory-22 {
+  @extend .item-inventory;
+  background-position-x: -264px;
+  background-position-y: 0px;
+}
+
+.item-inventory-23 {
+  @extend .item-inventory;
+  background-position-x: -308px;
+  background-position-y: 0px;
+}
+
+.item-inventory-24 {
+  @extend .item-inventory;
+  background-position-x: -352px;
+  background-position-y: 0px;
+}
+
+.item-inventory-25 {
+  @extend .item-inventory;
+  background-position-x: -396px;
+  background-position-y: 0px;
+}
+
+.item-inventory-26 {
+  @extend .item-inventory;
+  background-position-x: -440px;
+  background-position-y: 0px;
+}
+
+.item-inventory-27 {
+  @extend .item-inventory;
+  background-position-x: -484px;
+  background-position-y: 0px;
+}
+
+.item-inventory-28 {
+  @extend .item-inventory;
+  background-position-x: -528px;
+  background-position-y: 0px;
+}
+
+.item-inventory-29 {
+  @extend .item-inventory;
+  background-position-x: -44px;
+  background-position-y: 0px;
+}
+
+.item-inventory-30 {
+  @extend .item-inventory;
+  background-position-x: -88px;
+  background-position-y: 0px;
+}
+
+.item-inventory-31 {
+  @extend .item-inventory;
+  background-position-x: -132px;
+  background-position-y: 0px;
+}
+
+.item-inventory-32 {
+  @extend .item-inventory;
+  background-position-x: -176px;
+  background-position-y: 0px;
+}
+
+.item-inventory-33 {
+  @extend .item-inventory;
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+
+.item-inventory-34 {
+  @extend .item-inventory;
+  background-position-x: -44px;
+  background-position-y: 0px;
+}
+
+.item-inventory-35 {
+  @extend .item-inventory;
+  background-position-x: -88px;
+  background-position-y: 0px;
+}
+
+.item-inventory-36 {
+  @extend .item-inventory;
+  background-position-x: -132px;
+  background-position-y: 0px;
+}
+
+.item-inventory-37 {
+  @extend .item-inventory;
+  background-position-x: -176px;
+  background-position-y: 0px;
+}
+
+.item-inventory-38 {
+  @extend .item-inventory;
+  background-position-x: -220px;
+  background-position-y: 0px;
+}
+
+.item-inventory-39 {
+  @extend .item-inventory;
+  background-position-x: -264px;
+  background-position-y: 0px;
+}
+
+.item-inventory-40 {
+  @extend .item-inventory;
+  background-position-x: -308px;
+  background-position-y: 0px;
+}
+
+.item-inventory-41 {
+  @extend .item-inventory;
+  background-position-x: -352px;
+  background-position-y: 0px;
+}
+
+.item-inventory-42 {
+  @extend .item-inventory;
+  background-position-x: -396px;
+  background-position-y: 0px;
+}
+
+.item-inventory-43 {
+  @extend .item-inventory;
+  background-position-x: -440px;
+  background-position-y: 0px;
+}
+
+.item-inventory-44 {
+  @extend .item-inventory;
+  background-position-x: -484px;
+  background-position-y: 0px;
+}
+
+.item-inventory-45 {
+  @extend .item-inventory;
+  background-position-x: -528px;
+  background-position-y: 0px;
+}
+
+.item-inventory-46 {
+  @extend .item-inventory;
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+
+.item-inventory-47 {
+  @extend .item-inventory;
+  background-position-x: -44px;
+  background-position-y: 0px;
+}
+
+.item-inventory-48 {
+  @extend .item-inventory;
+  background-position-x: -88px;
+  background-position-y: 0px;
+}
+
+.item-inventory-49 {
+  @extend .item-inventory;
+  background-position-x: -132px;
+  background-position-y: 0px;
+}
+
+.item-inventory-50 {
+  @extend .item-inventory;
+  background-position-x: -176px;
+  background-position-y: 0px;
+}
+
+.item-inventory-51 {
+  @extend .item-inventory;
+  background-position-x: -220px;
+  background-position-y: 0px;
+}
+
+.item-inventory-52 {
+  @extend .item-inventory;
+  background-position-x: -264px;
+  background-position-y: 0px;
+}
+
+.item-inventory-53 {
+  @extend .item-inventory;
+  background-position-x: -308px;
+  background-position-y: 0px;
+}
+
+.item-inventory-54 {
+  @extend .item-inventory;
+  background-position-x: -352px;
+  background-position-y: 0px;
+}
+
+.item-inventory-55 {
+  @extend .item-inventory;
+  background-position-x: -396px;
+  background-position-y: 0px;
+}
+
+.item-inventory-56 {
+  @extend .item-inventory;
+  background-position-x: -440px;
+  background-position-y: 0px;
+}
+
+.item-inventory-57 {
+  @extend .item-inventory;
+  background-position-x: -484px;
+  background-position-y: 0px;
+}
+
+.item-inventory-58 {
+  @extend .item-inventory;
+  background-position-x: -528px;
+  background-position-y: 0px;
+}
+

@@ -1,0 +1,49 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.battle-panel {
+  color: white;
+  width: 1094px;
+  background-color: rgba(34, 21, 12, 0.51);
+  padding: 10px;
+  margin: {
+    left: auto;
+    right: auto;
+    top: 20px;
+  }
+
+  border: 1px solid #2e221d;
+
+  .item {
+    padding: 5px;
+    border-bottom: 1px solid #2e221d;
+    margin-bottom: 10px;
+
+    .win-title {
+      float: left;
+      padding-left: 30px;
+      color: #1cae35;
+      font-size: 22px;
+    }
+
+    .lose-title {
+      float: right;
+      padding-right: 30px;
+      color: #ae3236;
+      font-size: 22px;
+    }
+
+    .win{
+      padding-left: 30px;
+      float: left;
+    }
+
+    .lose{
+      float: right;
+      padding-right: 30px;
+    }
+  }
+}

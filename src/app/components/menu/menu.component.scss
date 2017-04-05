@@ -1,0 +1,39 @@
+.menu {
+  color: white;
+  width: 1114px;
+  height: 40px;
+  background-color: rgba(34, 21, 12, 0.51);
+  margin: auto;
+  border: 1px solid #2e221d;
+
+  .item{
+    cursor: pointer;
+    text-align: center;
+    a{
+      text-decoration: none;
+      color: #fafafa;
+    }
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
+  .start {
+    @extend .item;
+    width: 300px;
+    margin: auto;
+    font-size: 25px;
+    padding:{
+      top: 5px;
+      bottom: 5px;
+    }
+  }
+
+  .battle-stat{
+    @extend .item;
+    float: right;
+    font-size: 20px;
+    line-height: 2;
+    padding-right: 10px;
+  }
+}

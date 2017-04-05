@@ -1,0 +1,13 @@
+.ext-panel {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .ext-panel .item-interface {
+    display: flex;
+    justify-content: center; }
+  .ext-panel .store {
+    display: flex;
+    justify-content: center; }
+
+/*# sourceMappingURL=item-interface.component.css.map */

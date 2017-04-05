@@ -1,0 +1,54 @@
+@import "../../../../styles/character-coords";
+
+.player {
+  overflow: hidden;
+  position: absolute;
+  width: 265px;
+  height: 50px;
+  right: 20px;
+  top:12px;
+  font-size: 35px;
+  line-height:1.5;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.character {
+  position: relative;
+  width: 610px;
+  height: 516px;
+}
+
+.bonuses {
+  text-align: left;
+  position: absolute;
+  top: 280px;
+  left: 20px;
+  color: #ebebeb;
+}
+
+.noDrag {
+
+}
+
+.cell {
+  z-index: 11;
+  position: absolute;
+}
+
+.valid {
+  background-color: rgba(52, 138, 34, 0.46);
+}
+
+.invalid {
+  background-color: rgba(147, 15, 18, 0.46);
+}
+
+.item {
+
+}
+
+
+
+

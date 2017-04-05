@@ -1,0 +1,21 @@
+<div class="character" [ngStyle]="getStyleCharacter(item)">
+    <div class="player">
+        {{user.getName()}}
+    </div>
+    <div class="bonuses">
+        HERO CHARACTERISTIC<br>
+        <span [ngStyle]="getStyleCharacteristic(0)">Agility:</span> {{hero.agility}}<br>
+        <span [ngStyle]="getStyleCharacteristic(1)">Strength:</span> {{hero.strength}}<br>
+        <span [ngStyle]="getStyleCharacteristic(2)">Intelligence:</span> {{hero.intelligence}}<br><br>
+        GEAR BONUSES<br>
+        <span [ngStyle]="getStyleCharacteristic(0)">Agility:</span> +{{character.agility}}<br>
+        <span [ngStyle]="getStyleCharacteristic(1)">Strength:</span> +{{character.strength}}<br>
+        <span [ngStyle]="getStyleCharacteristic(2)">Intelligence:</span> +{{character.intelligence}}<br>
+    </div>
+    <item *ngFor="let item of itemList" [item]="item"></item>
+    <div
+            *ngFor="let item of itemValueList" class="cell"
+            [ngClass]="[item]" [ngStyle]="getStyle(item)"
+            (dragover)="onDragOver($event,item)" (drop)="onDrop($event,item)">
+    </div>
+</div>

@@ -1,0 +1,14 @@
+<div style="width: 1110px;height:500px;background-color: black;background-color: rgba(34, 21, 12, 0.51);
+  border: 1px solid #2e221d;">
+    <div style="color: white; font-size: 25px;text-align: center;background-color: rgba(34,21,12,0.71);">
+        Store
+    </div>
+    <div style="color: white;font-size: 22px;text-align: center;background-color: rgba(34,21,12,0.71);">
+        Money:{{user.getMoney()}}
+    </div>
+    <div style="position: relative">
+        <item *ngFor="let item of itemList" [item]="item"></item>
+    </div>
+</div>
+
+

@@ -1,0 +1,435 @@
+.shoulders {
+  top: 126px;
+  left: 346px;
+  width: 64px;
+  height: 86px; }
+
+.hands {
+  top: 225px;
+  left: 320px;
+  width: 64px;
+  height: 86px; }
+
+.finger-left {
+  top: 325px;
+  left: 332px;
+  width: 40px;
+  height: 40px; }
+
+.hand-left {
+  top: 380px;
+  left: 320px;
+  width: 64px;
+  height: 128px; }
+
+.head {
+  top: 102px;
+  left: 428px;
+  width: 64px;
+  height: 64px; }
+
+.torso {
+  top: 172px;
+  left: 420px;
+  width: 80px;
+  height: 113px; }
+
+.waist {
+  top: 291px;
+  left: 420px;
+  width: 80px;
+  height: 32px; }
+
+.legs {
+  top: 329px;
+  left: 428px;
+  width: 64px;
+  height: 86px; }
+
+.feet {
+  top: 421px;
+  left: 428px;
+  width: 64px;
+  height: 86px; }
+
+.neck {
+  top: 146px;
+  left: 512px;
+  width: 54px;
+  height: 54px; }
+
+.bracers {
+  top: 225px;
+  left: 536px;
+  width: 64px;
+  height: 86px; }
+
+.finger-right {
+  top: 325px;
+  left: 548px;
+  width: 40px;
+  height: 40px; }
+
+.hand-right {
+  top: 380px;
+  left: 536px;
+  width: 64px;
+  height: 128px; }
+
+.item {
+  z-index: 10;
+  position: absolute; }
+
+.characterItemsDem {
+  background: url("http://image.prntscr.com/image/a5a35afac1e449f893566580491f26db.png") no-repeat; }
+
+.characterItemsWar {
+  background: url("http://image.prntscr.com/image/e22809e3ab7f4d7bbf63804384165269.png") no-repeat; }
+
+.characterItemsMag {
+  background: url("http://image.prntscr.com/image/f9d67a00812f4d1bbe627352a186e473.png") no-repeat; }
+
+.characterItemsNew {
+  background: url("http://image.prntscr.com/image/02ab1461083c4e689d6c2348a9f43454.png") no-repeat; }
+
+.characterItemsNew2 {
+  background: url("http://image.prntscr.com/image/5a3601be226842b8babb2a4cbc3f2a4b.png") no-repeat; }
+
+.characterItemsDemMini {
+  background: url("http://image.prntscr.com/image/ee043e57948749fdbf275cf3166c7a86.png") no-repeat; }
+
+.characterItemsWarMini {
+  background: url("http://image.prntscr.com/image/a240ae986b7d4a66bddedb2e265abd35.png") no-repeat; }
+
+.characterItemsMagMini {
+  background: url("http://image.prntscr.com/image/c623810b5a49410f831bf6db9ff39e77.png") no-repeat; }
+
+.characterItemsNewMini {
+  background: url("http://image.prntscr.com/image/9ddf735de4e14ff6b97f7c847727bec6.png") no-repeat; }
+
+.characterItemsNew2Mini {
+  background: url("http://image.prntscr.com/image/755e51c53e1b4d988b17556330dd50cd.png") no-repeat; }
+
+.item-inventory, .item-inventory-0, .item-inventory-1, .item-inventory-2, .item-inventory-3, .item-inventory-4, .item-inventory-5, .item-inventory-6, .item-inventory-7, .item-inventory-8, .item-inventory-9, .item-inventory-10, .item-inventory-11, .item-inventory-12, .item-inventory-13, .item-inventory-14, .item-inventory-15, .item-inventory-16, .item-inventory-17, .item-inventory-18, .item-inventory-19, .item-inventory-20, .item-inventory-21, .item-inventory-22, .item-inventory-23, .item-inventory-24, .item-inventory-25, .item-inventory-26, .item-inventory-27, .item-inventory-28, .item-inventory-29, .item-inventory-30, .item-inventory-31, .item-inventory-32, .item-inventory-33, .item-inventory-34, .item-inventory-35, .item-inventory-36, .item-inventory-37, .item-inventory-38, .item-inventory-39, .item-inventory-40, .item-inventory-41, .item-inventory-42, .item-inventory-43, .item-inventory-44, .item-inventory-45, .item-inventory-46, .item-inventory-47, .item-inventory-48, .item-inventory-49, .item-inventory-50, .item-inventory-51, .item-inventory-52, .item-inventory-53, .item-inventory-54, .item-inventory-55, .item-inventory-56, .item-inventory-57, .item-inventory-58 {
+  width: 43.5px;
+  height: 53px; }
+
+.item-inventory-0 {
+  background-position-x: -176px;
+  background-position-y: -106px; }
+
+.item-inventory-1 {
+  background-position-x: -176px;
+  background-position-y: -53px; }
+
+.item-inventory-2 {
+  background-position-x: 0px;
+  background-position-y: -53px; }
+
+.item-inventory-3 {
+  background-position-x: -44px;
+  background-position-y: 0px; }
+
+.item-inventory-4 {
+  background-position-x: 0px;
+  background-position-y: -159px; }
+
+.item-inventory-5 {
+  background-position-x: 0px;
+  background-position-y: 0px; }
+
+.item-inventory-6 {
+  background-position-x: -44px;
+  background-position-y: -53px; }
+
+.item-inventory-7 {
+  background-position-x: -176px;
+  background-position-y: 0px; }
+
+.item-inventory-8 {
+  background-position-x: -88px;
+  background-position-y: -106px; }
+
+.item-inventory-9 {
+  background-position-x: 0px;
+  background-position-y: -106px; }
+
+.item-inventory-10 {
+  background-position-x: -132px;
+  background-position-y: -106px; }
+
+.item-inventory-11 {
+  background-position-x: -88px;
+  background-position-y: 0px; }
+
+.item-inventory-12 {
+  background-position-x: -44px;
+  background-position-y: -106px; }
+
+.item-inventory-13 {
+  background-position-x: -132px;
+  background-position-y: -53px; }
+
+.item-inventory-14 {
+  background-position-x: -132px;
+  background-position-y: 0px; }
+
+.item-inventory-15 {
+  background-position-x: -88px;
+  background-position-y: -53px; }
+
+.item-inventory-16 {
+  background-position-x: 0px;
+  background-position-y: 0px; }
+
+.item-inventory-17 {
+  background-position-x: -44px;
+  background-position-y: 0px; }
+
+.item-inventory-18 {
+  background-position-x: -88px;
+  background-position-y: 0px; }
+
+.item-inventory-19 {
+  background-position-x: -132px;
+  background-position-y: 0px; }
+
+.item-inventory-19 {
+  background-position-x: -176px;
+  background-position-y: 0px; }
+
+.item-inventory-20 {
+  background-position-x: 0px;
+  background-position-y: 0px; }
+
+.item-inventory-21 {
+  background-position-x: -220px;
+  background-position-y: 0px; }
+
+.item-inventory-22 {
+  background-position-x: -264px;
+  background-position-y: 0px; }
+
+.item-inventory-23 {
+  background-position-x: -308px;
+  background-position-y: 0px; }
+
+.item-inventory-24 {
+  background-position-x: -352px;
+  background-position-y: 0px; }
+
+.item-inventory-25 {
+  background-position-x: -396px;
+  background-position-y: 0px; }
+
+.item-inventory-26 {
+  background-position-x: -440px;
+  background-position-y: 0px; }
+
+.item-inventory-27 {
+  background-position-x: -484px;
+  background-position-y: 0px; }
+
+.item-inventory-28 {
+  background-position-x: -528px;
+  background-position-y: 0px; }
+
+.item-inventory-29 {
+  background-position-x: -44px;
+  background-position-y: 0px; }
+
+.item-inventory-30 {
+  background-position-x: -88px;
+  background-position-y: 0px; }
+
+.item-inventory-31 {
+  background-position-x: -132px;
+  background-position-y: 0px; }
+
+.item-inventory-32 {
+  background-position-x: -176px;
+  background-position-y: 0px; }
+
+.item-inventory-33 {
+  background-position-x: 0px;
+  background-position-y: 0px; }
+
+.item-inventory-34 {
+  background-position-x: -44px;
+  background-position-y: 0px; }
+
+.item-inventory-35 {
+  background-position-x: -88px;
+  background-position-y: 0px; }
+
+.item-inventory-36 {
+  background-position-x: -132px;
+  background-position-y: 0px; }
+
+.item-inventory-37 {
+  background-position-x: -176px;
+  background-position-y: 0px; }
+
+.item-inventory-38 {
+  background-position-x: -220px;
+  background-position-y: 0px; }
+
+.item-inventory-39 {
+  background-position-x: -264px;
+  background-position-y: 0px; }
+
+.item-inventory-40 {
+  background-position-x: -308px;
+  background-position-y: 0px; }
+
+.item-inventory-41 {
+  background-position-x: -352px;
+  background-position-y: 0px; }
+
+.item-inventory-42 {
+  background-position-x: -396px;
+  background-position-y: 0px; }
+
+.item-inventory-43 {
+  background-position-x: -440px;
+  background-position-y: 0px; }
+
+.item-inventory-44 {
+  background-position-x: -484px;
+  background-position-y: 0px; }
+
+.item-inventory-45 {
+  background-position-x: -528px;
+  background-position-y: 0px; }
+
+.item-inventory-46 {
+  background-position-x: 0px;
+  background-position-y: 0px; }
+
+.item-inventory-47 {
+  background-position-x: -44px;
+  background-position-y: 0px; }
+
+.item-inventory-48 {
+  background-position-x: -88px;
+  background-position-y: 0px; }
+
+.item-inventory-49 {
+  background-position-x: -132px;
+  background-position-y: 0px; }
+
+.item-inventory-50 {
+  background-position-x: -176px;
+  background-position-y: 0px; }
+
+.item-inventory-51 {
+  background-position-x: -220px;
+  background-position-y: 0px; }
+
+.item-inventory-52 {
+  background-position-x: -264px;
+  background-position-y: 0px; }
+
+.item-inventory-53 {
+  background-position-x: -308px;
+  background-position-y: 0px; }
+
+.item-inventory-54 {
+  background-position-x: -352px;
+  background-position-y: 0px; }
+
+.item-inventory-55 {
+  background-position-x: -396px;
+  background-position-y: 0px; }
+
+.item-inventory-56 {
+  background-position-x: -440px;
+  background-position-y: 0px; }
+
+.item-inventory-57 {
+  background-position-x: -484px;
+  background-position-y: 0px; }
+
+.item-inventory-58 {
+  background-position-x: -528px;
+  background-position-y: 0px; }
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgba(33, 20, 10, 0.71);
+  color: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  z-index: 120;
+  margin-top: 10px;
+  margin-left: 50px; }
+.tooltip:hover .tooltiptext {
+  visibility: visible; }
+
+.item {
+  z-index: 10;
+  position: absolute; }
+
+.inventoryItems {
+  float: left; }
+
+.shoulders-img {
+  background-position-y: -126px;
+  background-position-x: -346px; }
+
+.hands-img {
+  background-position-y: -225px;
+  background-position-x: -320px; }
+
+.finger-left-img {
+  background-position-y: -325px;
+  background-position-x: -332px; }
+
+.hand-left-img {
+  background-position-y: -380px;
+  background-position-x: -320px; }
+
+.head-img {
+  background-position-y: -102px;
+  background-position-x: -428px; }
+
+.torso-img {
+  background-position-y: -172px;
+  background-position-x: -420px; }
+
+.waist-img {
+  background-position-y: -291px;
+  background-position-x: -420px; }
+
+.legs-img {
+  background-position-y: -329px;
+  background-position-x: -428px; }
+
+.feet-img {
+  background-position-y: -421px;
+  background-position-x: -428px; }
+
+.neck-img {
+  background-position-y: -146px;
+  background-position-x: -512px; }
+
+.bracers-img {
+  background-position-y: -225px;
+  background-position-x: -536px; }
+
+.finger-right-img {
+  background-position-y: -325px;
+  background-position-x: -548px; }
+
+.hand-right-img {
+  background-position-x: -536px;
+  background-position-y: -380px; }
+
+:host .isActive {
+  background-color: red; }
+
+.isActive {
+  background-color: red; }
+
+/*# sourceMappingURL=item.component.css.map */

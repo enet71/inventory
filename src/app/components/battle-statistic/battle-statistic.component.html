@@ -1,0 +1,18 @@
+<div class="battle-panel">
+    <div class="item clearfix">
+        <div class="win-title">
+            Win
+        </div>
+        <div class="lose-title">
+            Lose
+        </div>
+    </div>
+    <div *ngFor="let item of battleList" class="item clearfix">
+        <div class="win">
+            {{ item.win.name ? item.win.name : getPlayer(item,true)}}
+        </div>
+        <div class="lose">
+            {{item.lose.name ? item.lose.name : getPlayer(item,false)}}
+        </div>
+    </div>
+</div>

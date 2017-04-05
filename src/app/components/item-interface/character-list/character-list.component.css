@@ -1,0 +1,29 @@
+.character-list {
+  vertical-align: top;
+  background-color: rgba(34, 21, 12, 0.51);
+  border: 1px solid #2e221d; }
+
+.under-panel {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center; }
+  .under-panel .start {
+    color: #1a902b;
+    font-size: 25px;
+    cursor: pointer; }
+    .under-panel .start:hover {
+      text-decoration: underline; }
+  .under-panel .heroes {
+    display: flex; }
+    .under-panel .heroes .item {
+      cursor: pointer;
+      color: #c0c8be;
+      padding-top: 15px;
+      padding-right: 15px;
+      padding-left: 15px;
+      padding-bottom: 15px; }
+      .under-panel .heroes .item:hover {
+        text-decoration: underline; }
+
+/*# sourceMappingURL=character-list.component.css.map */

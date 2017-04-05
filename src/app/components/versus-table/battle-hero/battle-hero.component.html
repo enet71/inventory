@@ -1,0 +1,18 @@
+<div [@hero]="state.state" class="hero-panel" [ngStyle]="getMainStyle()">
+    <div class="hero-title">{{name}}</div>
+    <div class="health" [ngStyle]="getHealthStyle()">{{state.health == -1?hero.getMaxHealth():state.health}}</div>
+    <div class="hero-info">
+        <div class="hero-stats">
+            HERO CHARACTERISTIC<br><br>
+            Health: {{hero.getMaxHealth()}}<br>
+            Damage: {{hero.getDamage()}}<br>
+            Strength: {{hero.getStrength()}}<br>
+            Agility: {{hero.getAgility()}}<br>
+            Intelligence: {{hero.getIntelligence()}}<br>
+        </div>
+        <div class="hero-item">
+            <div *ngFor="let item of itemValueList" [ngClass]="getClass(item,characterList)"
+                 class="item-inventory-0 item"></div>
+        </div>
+    </div>
+</div>

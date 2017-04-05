@@ -1,0 +1,41 @@
+.character-list {
+  vertical-align: top;
+  background-color: rgba(34, 21, 12, 0.51);
+  border: 1px solid #2e221d;
+}
+
+.under-panel {
+  display: flex;
+  justify-content:space-between;
+  padding: 10px;
+  align-items: center;
+
+  .start {
+    color: #1a902b;
+    font-size: 25px;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .heroes {
+    display: flex;
+
+    .item {
+      cursor: pointer;
+      color: #c0c8be;
+      padding: {
+        top: 15px;
+        right: 15px;
+        left: 15px;
+        bottom: 15px;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

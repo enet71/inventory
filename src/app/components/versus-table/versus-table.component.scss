@@ -1,0 +1,42 @@
+.versus-table {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .user {
+    color: #f0f0f0;
+    font-size: 25px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+
+  .middle {
+    padding-left: 100px;
+    padding-right: 100px;
+
+    .versus {
+      font-size: 120px;
+      color: #8c1d13;
+      text-align: center;
+    }
+    .winner{
+      font-size: 30px;
+      color: #1a902b;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .start {
+      font-size: 30px;
+      color: #8c1d13;
+      cursor: pointer;
+      text-align: center;
+      &:hover {
+        color: #a31d13;
+        text-decoration: underline;
+      }
+    }
+  }
+}

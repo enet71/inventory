@@ -1,0 +1,36 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.battle-panel {
+  color: white;
+  width: 1094px;
+  background-color: rgba(34, 21, 12, 0.51);
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 1px solid #2e221d; }
+  .battle-panel .item {
+    padding: 5px;
+    border-bottom: 1px solid #2e221d;
+    margin-bottom: 10px; }
+    .battle-panel .item .win-title {
+      float: left;
+      padding-left: 30px;
+      color: #1cae35;
+      font-size: 22px; }
+    .battle-panel .item .lose-title {
+      float: right;
+      padding-right: 30px;
+      color: #ae3236;
+      font-size: 22px; }
+    .battle-panel .item .win {
+      padding-left: 30px;
+      float: left; }
+    .battle-panel .item .lose {
+      float: right;
+      padding-right: 30px; }
+
+/*# sourceMappingURL=battle-statistic.component.css.map */
